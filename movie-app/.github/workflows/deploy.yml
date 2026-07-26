@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: movie-app
+  ECR_REPOSITORY: movieapp
 
 jobs:
   docker:

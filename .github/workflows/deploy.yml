@@ -35,7 +35,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t $ECR_REPOSITORY . /movieapp
+          docker build -t $ECR_REPOSITORY ./movieapp
 
       - name: Tag Image
         run: |
